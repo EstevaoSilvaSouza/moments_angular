@@ -1,4 +1,4 @@
-# WebsiteMoments
+# Moments Replica do Instagram.... desenvolvido para estudos.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
