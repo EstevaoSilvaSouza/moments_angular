@@ -1,0 +1,25 @@
+<div>
+  <h1>Momentos compartilhados!!</h1>
+  <form>
+    <input
+      type="text"
+      placeholder="digite algo que quer buscar"
+      (input)="changeValue($event)"
+    />
+  </form>
+</div>
+
+<div *ngIf="moments.length > 0; else noMoments">
+  <div *ngIf="moments">
+    <div *ngFor="let moment of moments">
+      <p>Titulo {{ moment.title }}</p>
+      <a routerLink="EditmomentComponent/{{ moment.id }}">Editar</a>
+    </div>
+  </div>
+</div>
+
+<ng-template #noMoments>
+  <div>
+    <p>Sem nenhum Momento registrado</p>
+  </div>
+</ng-template>

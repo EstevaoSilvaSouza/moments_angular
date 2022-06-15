@@ -1,0 +1,9 @@
+<p>Editar Momentos</p>
+
+<div *ngIf="moment">
+  <div>
+    <p>Editando momento {{ moment.title }}</p>
+  </div>
+
+  <app-form [text]="text" [momentData]="moment"></app-form>
+</div>

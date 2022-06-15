@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #482de0cb;
+}
+
+.menu {
+  display: flex;
+  width: 20%;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #fff;
+  transition: all 0.04s ease;
+}
+
+.menu a:hover {
+  color: deeppink;
+}
